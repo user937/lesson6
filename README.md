@@ -1,5 +1,7 @@
 Базовый репозиторий для четвертой лекции
 
+![Python application](https://github.com/GitLessons2020/lesson4/workflows/Python%20application/badge.svg?branch=main)
+
 Проверить, что python работает
 
 ```bash
