@@ -11,6 +11,7 @@ def test_v2(app, client):
     assert res.status_code == 200
     assert res.data == b"Second action"
 
+
 def test_kozintsev(app, client):
     res = client.get('/kozintsev')
     assert res.status_code == 200
