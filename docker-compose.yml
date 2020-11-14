@@ -4,4 +4,4 @@ services:
   flask_app:
     image: matvey937/lesson6
     ports:
-  - 5511:5000
+    - 5511:5000
