@@ -57,7 +57,7 @@ jobs:
     - name: Restart service
       uses: fifsky/ssh-action@master
       with:
-       command: |
+       command:
           cd Kozintsev
           docker-compose --no-ansi pull
           docker-compose --no-ansi up -d
